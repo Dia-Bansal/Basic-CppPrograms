@@ -10,6 +10,6 @@ int main()
             sum=sum+i;
         }   
     }
-    cout<<sum<<endl;
+    cout<<"Sum from 1 to "<<n<<" is "<<sum<<endl;
     return 0;
 }
