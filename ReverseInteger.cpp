@@ -7,7 +7,7 @@ int main()
    int n;
    cin>>n;
    int ans=0;
-   for(int i=0;i<=n;i++){
+   while(n!=0){
        int rem=n%10;
        ans=(ans*10)+rem;
        n=n/10;
